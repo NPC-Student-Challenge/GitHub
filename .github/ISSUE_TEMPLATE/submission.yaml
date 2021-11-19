@@ -1,3 +1,5 @@
+name: Project Submission
+description: Submit your project
 body:
 - type: input
   attributes:
