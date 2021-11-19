@@ -16,15 +16,13 @@
 - Use tools/resources from GitHub Student Developer Pack to build your project on GitHub 
 - Submit your product [here](https://github.com/NPC-Student-Challenge/GitHub/issues/new/choose)
 
-##  Learning Resources 📚
+##  Resources 📚
 
-
-- Understanding the GitHub Flow
-- GitHub Learning Lab: 
-  - Introduction to GitHub
-  - Communicating using Markdown
-  - GitHub Actions: Hello World
-- Explore Student Projects Gallery 
+- GitHub Learning Lab
+  - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)
+  - [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
+  - [GitHub Actions: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world)
+- [Explore Student Projects Gallery](https://education.github.com/pack/gallery) 
 
 
 ## Evaluation Criteria 📝
