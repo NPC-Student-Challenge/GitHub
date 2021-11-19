@@ -20,6 +20,14 @@ body:
       - Emerging Technologies
       - Open Innovation
 
+
+- type: textarea
+  attributes:
+    label: Product Description
+    description: Please keep your description below 100 characters
+  validations:
+    required: false
+    
 - type: input
   attributes:
     label: Student Name(s)
@@ -33,7 +41,15 @@ body:
     description: Add names of all team members.
   validations:
     required: true
-    
+
+- type: input
+  attributes:
+    label: University Name
+    description: Add names .
+  validations:
+    required: true
+
+
 - type: input
   attributes:
     label: GitHub Repository
@@ -50,10 +66,9 @@ body:
     
 - type: textarea
   attributes:
-    label: Project Description
+    label: Product Pitch/Presentation
     description: |
       Links? References? Anything that will give us more context about your project!
-
       Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
