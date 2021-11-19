@@ -42,6 +42,9 @@ body:
       - Healthcare
       - Emerging Technologies
       - Open Innovation
+  validations:
+    required: true
+
 
 
 - type: textarea
@@ -49,7 +52,7 @@ body:
     label: Product Description
     description: Please keep your description below 100 characters
   validations:
-    required: false
+    required: true
 
 - type: dropdown
   attributes:
