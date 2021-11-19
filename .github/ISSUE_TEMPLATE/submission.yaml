@@ -14,14 +14,14 @@ body:
 - type: input
   attributes:
     label: Student GitHub Usernames
-    description: Add names of all team members.
+    description: Add names of all team members. (example:  Yogitocat, Fintechtocat, Surftocat, Hulatocat)
   validations:
     required: true
 
 - type: input
   attributes:
     label: University Name
-    description: Add names .
+    description: Add university name of all team members. 
   validations:
     required: true
 
@@ -153,6 +153,34 @@ body:
       - CARTO
       - Codecov
       - DailyBot
+      - Sider
+      - Lingohub
+      - AccessLint
+      - Weglot
+      - NetLicensing
+      - Kaltura
+      - SOFY
+      - Simple Analytics
+      - PushBots
+      - Wisej
+      - Algolia
+      - BetterCodeHub
+      - Baremetrics
+      - Yakindu
+      - POEditor
+      - Crowdin
+      - ConfigCat
+      - EverSQL
+      - AstraSecurity
+      - Transifex
+      - Honeybadger
+      - Appfigures
+      - SQLSmash
+      - Phrase
+      - Transloadit
+      - Raygun
+      - Coveralls
+      - LogDNA
       
   validations:
     required: true
