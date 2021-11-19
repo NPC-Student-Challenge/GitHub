@@ -3,6 +3,29 @@ description: Submit your product
 title: "[Product] <title>"
 labels: [Product]
 body:
+
+- type: input
+  attributes:
+    label: Student Name(s)
+    description: Add names of all team members.
+  validations:
+    required: true
+    
+- type: input
+  attributes:
+    label: Student GitHub Usernames
+    description: Add names of all team members.
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: University Name
+    description: Add names .
+  validations:
+    required: true
+
+
 - type: input
   attributes:
     label: Product Name
@@ -30,29 +53,7 @@ body:
     
 - type: input
   attributes:
-    label: Student Name(s)
-    description: Add names of all team members.
-  validations:
-    required: true
-    
-- type: input
-  attributes:
-    label: Student GitHub Usernames
-    description: Add names of all team members.
-  validations:
-    required: true
-
-- type: input
-  attributes:
-    label: University Name
-    description: Add names .
-  validations:
-    required: true
-
-
-- type: input
-  attributes:
-    label: GitHub Repository
+    label: GitHub Repository URL
     description: Please share GitHub repository link of your project.
   validations:
     required: true
@@ -80,19 +81,78 @@ body:
       Projects must use at least one tool from the Pack.
     multiple: true
     options:
-      - Deepsource
-      - Deepscan
-      - pyCharm
-      - Push Bots
       - Canva
+      - Namecheap
       - Microsoft Azure
+      - JetBrains
+      - Educative
+      - Digital Ocean
+      - Name.com
+      - GitHub Pages
+      - Bootstrap Studio
       - GitHub
-      - ATOM
-      - Mongo DB
+      - .TECH
+      - DataCamp
+      - FrontendMasters
+      - StreamYard
+      - Termius
+      - Iconscout
+      - GitKraken
+      - OneMonth
+      - PomoDone
+      - EducationHost
+      - Repl.it
+      - Atom
+      - Testmail
+      - Covalence
+      - Icons8
+      - MongoDB
+      - New Relic
+      - Next.tech
+      - InterviewCake
       - Twilio
-      - Pop SQL
-      - Astra
-      - WiseJ
-      - LogDNA
+      - GitHub Desktop
+      - Arduino
+      - Typeform
+      - Polypane
+      - GoRails
+      - PopSQL
+      - Netwise
+      - Stripe
+      - HazeOver
+      - Thinkful
+      - Pageclip
+      - Sentry
+      - Kodika
+      - Datadog
+      - Imgbot
+      - Mailgun
+      - Travis CI
+      - DeepSource
+      - Dashlane
+      - Xojo
+      - WorkingCopy
+      - Gitpod
+      - BrowserStack
+      - Cryptolens
+      - Adafruit
+      - Freshpaint
+      - Tower
+      - Themeisle
+      - Restyled
+      - Blockchair
+      - Blackfire
+      - SQLGate
+      - Drovio
+      - LambdaTest
+      - DeepScan
+      - Zyte
+      - Customerly
+      - SymfonyCasts
+      - Vaadin
+      - CARTO
+      - Codecov
+      - DailyBot
+      
   validations:
     required: true
