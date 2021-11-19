@@ -186,5 +186,5 @@ body:
       Links? References? Anything that will give us more context about your project!
       Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
   validations:
-    required: false
+    required: true
     
