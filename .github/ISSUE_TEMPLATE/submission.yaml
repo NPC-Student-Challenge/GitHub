@@ -181,6 +181,5 @@ body:
       - Raygun
       - Coveralls
       - LogDNA
-      
   validations:
     required: true
