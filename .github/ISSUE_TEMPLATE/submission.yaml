@@ -1,7 +1,7 @@
-name: Project Submission
-description: Submit your project
-title: "[Project] <title>"
-labels: [Project]
+name: Product Submission
+description: Submit your product
+title: "[Product] <title>"
+labels: [Product]
 body:
 - type: input
   attributes:
@@ -9,18 +9,45 @@ body:
     description: Please add a name to your product.
   validations:
     required: true
+
+- type: dropdown
+  attributes:
+    label: Theme
+    description: Select a theme for your solution
+    options:
+      - Sustainability 
+      - Healthcare
+      - Emerging Technologies
+      - Open Innovation
+
+- type: input
+  attributes:
+    label: Student Name(s)
+    description: Add names of all team members.
+  validations:
+    required: true
+    
+- type: input
+  attributes:
+    label: Student GitHub Usernames
+    description: Add names of all team members.
+  validations:
+    required: true
+    
 - type: input
   attributes:
     label: GitHub Repository
     description: Please share GitHub repository link of your project.
   validations:
     required: true
+    
 - type: input
   attributes:
     label: Project URL
     description: Please share demo link of your project or demo video.
   validations:
     required: true
+    
 - type: textarea
   attributes:
     label: Project Description
@@ -30,6 +57,7 @@ body:
       Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
+    
 - type: dropdown
   attributes:
     label: GitHub Student Developer Pack Tools Used
