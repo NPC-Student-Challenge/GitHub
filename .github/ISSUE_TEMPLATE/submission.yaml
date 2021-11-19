@@ -50,30 +50,7 @@ body:
     description: Please keep your description below 100 characters
   validations:
     required: false
-    
-- type: input
-  attributes:
-    label: GitHub Repository URL
-    description: Please share GitHub repository link of your project.
-  validations:
-    required: true
-    
-- type: input
-  attributes:
-    label: Project URL
-    description: Please share demo link of your project or demo video.
-  validations:
-    required: true
-    
-- type: textarea
-  attributes:
-    label: Product Pitch/Presentation
-    description: |
-      Links? References? Anything that will give us more context about your project!
-      Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
-  validations:
-    required: false
-    
+
 - type: dropdown
   attributes:
     label: GitHub Student Developer Pack Tools Used
@@ -183,3 +160,28 @@ body:
       - LogDNA
   validations:
     required: true
+
+
+- type: input
+  attributes:
+    label: GitHub Repository URL
+    description: Please share GitHub repository link of your project.
+  validations:
+    required: true
+    
+- type: input
+  attributes:
+    label: Project URL
+    description: Please share demo link of your project or demo video.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Product Pitch/Presentation
+    description: |
+      Links? References? Anything that will give us more context about your project!
+      Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+    
