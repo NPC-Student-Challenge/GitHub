@@ -14,7 +14,7 @@
 - Create a [GitHub account](https://github.com/join)  
 - Sign up for [GitHub Student Developer Pack](https://education.github.com/pack)   
 - Use tools/resources from GitHub Student Developer Pack to build your project on GitHub 
-- Submit your product [here]()
+- Submit your product [here](https://github.com/NPC-Student-Challenge/GitHub/issues/new/choose)
 
 ##  Learning Resources 📚
 
